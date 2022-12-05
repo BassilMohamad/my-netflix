@@ -17,7 +17,7 @@ const Home=()=>{
   return(
     <div className="home">
       <Routes> 
-       <Route path="my-netflix/" exact element={<LandingPage />}/>
+       <Route path="/my-netflix/" exact element={<LandingPage />}/>
        <Route path="/movies" exact element={<Movies />}/>
        <Route path="/moviesDetail" exact element={<MoviesDetail />}/>
       </Routes>
